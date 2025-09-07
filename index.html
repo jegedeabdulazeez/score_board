@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div  class="container">
+            <div>
+                <h3>HOME</h3>
+                <button class="home" id="home-bt">0</button>
+                <div class="btn_brd">
+                <button class="plus" onclick="one()">+1</button>
+                <button class="plus" onclick="two()">+2</button>
+                <button class="plus" onclick="three()">+3</button>
+                </div>
+                <h4 id="ahead-el" onclick="ahead()" class="ahead_lyt"></h4>
+            </div>
+            
+            <div>
+                <h3>GUEST</h3>
+                <button class="guest" id="guest-bt">0</button>
+                <div class="btn_brd">
+                    <button class="plus" onclick="oneG()" >+1</button>
+                    <button class="plus" onclick="twoG()">+2</button>
+                    <button class="plus" onclick="threeG()">+3</button>
+                </div>
+            </div>
+            <!-- <div class="ahead_lyt">       -->
+            
+        <!-- </div> -->
+            <div> 
+                <h3 onclick="save()">save</h3>
+                <span id="save-el"></span>
+                <h3 onclick="reset()">>Reset</h3>
+            </div>
+            
+        <script src="index.js"></script>
+    </body>
+</html>
